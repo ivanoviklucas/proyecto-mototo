@@ -3,6 +3,8 @@ $color-secundario: #FFFFFF;
 $color-tersiario: #A0A5AB;
 $color-cuarto: #778DA9;
 
+$colores-contacto: #2A7F62,#C3ACCE,#DFD9E2;
+
 /*mixin*/
 @mixin flex($flex,$direction,$justify, $align){
     display: $flex;
@@ -11,7 +13,7 @@ $color-cuarto: #778DA9;
     align-items: $align;
 }
 
-%flexbox{display:flex;
+%flexbox {display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -19,6 +21,7 @@ $color-cuarto: #778DA9;
     width: 100%;
     margin-right: 10px;
     margin-top: 10px;
+
 }
 
     

@@ -48,7 +48,7 @@ span {
 
 section h2 {
     color: $color-principal;
-    background-color: $color-cuarto;
+    background-color: $color-secundario;
     font-size: 5vh;
     text-align: center;
     margin-top: 10px;
@@ -60,8 +60,8 @@ section h2 {
 
 a{
    p{ text-align: center;
-    color: white;}
-}
+    color: $color-secundario
+}}
 
 section { 
     h3 {
