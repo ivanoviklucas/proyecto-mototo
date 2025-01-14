@@ -393,6 +393,7 @@ header {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 20px;
   }
   .footer-padre .cajas-footer {
     display: flex;
@@ -448,7 +449,7 @@ header {
     font-size: 30px;
   }
   .contenedor-video video {
-    width: 300px;
+    width: 400px;
   }
   section h2 {
     margin-left: 15px;
@@ -456,6 +457,113 @@ header {
   }
   .main-contacto {
     padding-top: 30px;
+  }
+}
+@media screen and (min-width: 551px) and (max-width: 977) {
+  header {
+    height: 60px;
+  }
+  .contenedor-entrega {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+  .lista-ventajas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .lista-ventajas .ventaja img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  .lista-ventajas .ventaja h4 {
+    font-size: 30px;
+  }
+  .lista-ventajas .ventaja h5 {
+    color: black;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-decoration: underline;
+    font-size: 20px;
+  }
+  .footer-padre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .footer-padre .cajas-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+  }
+  .footer-padre .cajas-footer img {
+    height: 15vh;
+    width: 15vw;
+  }
+  .contenedor-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contenedor-video .texto {
+    text-align: left;
+  }
+  .contenedor-video .texto h2 {
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  .contenedor-video .texto p {
+    padding-left: 20px;
+    font-size: 25px;
+    margin-right: 25px;
+  }
+  .contenedor-video .texto ol li {
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 50px;
+    font-size: 30px;
+  }
+  .contenedor-video video {
+    width: 500px;
+  }
+  .main-contacto .whatsapp {
+    height: 15vh;
+  }
+  .main-contacto .whatsapp h4 {
+    font-size: 30px;
+  }
+  .main-contacto .whatsapp img {
+    height: 8vh;
+    width: 10vw;
+  }
+  .main-contacto .instagram {
+    height: 15vh;
+  }
+  .main-contacto .instagram .titulo-negro {
+    font-size: 30px;
+  }
+  .main-contacto .instagram img {
+    height: 12vh;
+    width: 20vw;
+  }
+  .main-contacto .facebook {
+    height: 15vh;
+  }
+  .main-contacto .facebook h4 {
+    font-size: 30px;
+  }
+  .main-contacto .facebook img {
+    height: 8vh;
+    width: 14vw;
   }
 }
 
