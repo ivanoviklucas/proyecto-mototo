@@ -1,0 +1,40 @@
+/*header general*/
+header {
+    height: 50px;
+  }
+  
+  .bg-dark {
+    background-image: url(../imag/textura-gris.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .offcanvas {
+    background-image: url(../imag/textura-gris.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .offcanvas-title {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+  }
+  
+  .navbar-nav {
+    align-items: flex-start !important;
+    justify-content: center !important;
+    padding-left: 15px;
+    font-weight: bold;
+    --bs-nav-link-hover-color: $color-cuarto;
+  }
+  
+  .navbar-brand {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-weight: bolder;
+  }
+  
+  

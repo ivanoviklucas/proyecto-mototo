@@ -1,0 +1,220 @@
+    /*index*/
+    .contenedor-entrega {
+        @include flex (flex, column, center, center);
+        background-color: white;
+        width: 100vw;
+        height: 100vh;
+        color: black;
+    }
+
+    .lista-ventajas {
+        @include flex(flex, row, center, center);
+    
+    .ventaja {
+        background-color: $color-secundario;
+        color: $color-principal;
+        display: flex;
+        text-align: center;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+        img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        h4 {
+            color: black;
+            font-size: 60px;
+        }
+
+        h5 {
+            color: black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-decoration: underline;
+            font-size: 20px;
+        }
+
+    }
+    }
+    .ventaja:hover {
+        transform: scale(1.1)
+    }
+
+    /* Destino*/
+    .w-100 {
+        width: 80vw;
+        height: 20vh;
+        margin-top: 20px;
+        object-fit: contain;
+    }
+
+    .carousel.slide {
+        margin-left: 15px;
+        margin-right: 15px
+    }
+
+    /*mixin .zona*/
+    .zona {
+        @include flex(flex, row, space-around, center);
+        color: black;
+        background-image: url("../imag/textura-gris.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        padding: 21px;
+        margin-left: 21px;
+        margin-right: 21px;
+
+        img {
+            width: 200px;
+            height: 200px;
+            display: block;
+            margin: 0 auto;
+            border: ridge black 8px;
+        }
+    }
+
+    .solicitud {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    form {
+        div {
+            @include flex(flex, column, center, flex-start);
+            padding: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            font-size: 20px;
+            background-image: url(../imag/delivery.jpg);
+            padding: 20px;
+        }
+
+        label {
+            width: 200px;
+            background-color: rgba(17, 16, 16, 0.712);
+            color: white;
+            padding: 4px;
+        }
+
+        input {
+            width: 200px;
+            padding: 2px;
+        }
+
+        select {
+            width: 200px;
+            padding: 2px;
+        }
+
+        textarea {
+            width: 200px;
+            padding: 2px;
+        }
+
+        form button {
+            background-color: rgba(0, 0, 0, 0.808);
+            color: white;
+            width: 200px;
+            padding: 2px
+        }
+
+        section ul li {
+            background-color: white;
+            color: black;
+            font-family: system-ui, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+            font-size: 40px;
+        }
+    }
+
+    /*Quienes-somos*/
+    .contenedor-video {
+        @include flex(flex, row, space-between, center);
+
+        .texto {
+            text-align: left;
+
+            p {
+                margin-left: 10px;
+                font-size: 30px;
+            }
+
+            ol li {
+                margin-left: 10px;
+                line-height: 50px;
+                font-size: 25px
+            }
+
+        }
+
+        video {
+            width: 400px;
+            height: 300px;
+        }
+    }
+
+    .main-contacto {
+        margin-right: 20px;
+        margin-left: 20px;
+
+        .whatsapp {
+            @extend %flexbox;
+            background-color: rgb(114, 238, 114);
+
+            img {
+                width: 5vw;
+                height: 5vh;
+            }
+        }
+
+        .instagram {
+            @extend %flexbox;
+            background-color: rgb(187, 64, 146);
+
+            img {
+                width: 8vw;
+                height: 8vh;
+            }
+        }
+
+        .facebook {
+            @extend %flexbox;
+            background-color: rgb(147, 156, 147);
+
+            img {
+                width: 5vw;
+                height: 5vh;
+            }
+        }
+    }
+
+    aside {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 200px;
+        justify-content: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    /*piso el padding de bootstrap del nav*/
+    ol,
+    ul {
+        padding-left: 0px;
+        padding-left: 21px;
+        padding-right: 21px;
+        padding-top: 10px
+    }
+
