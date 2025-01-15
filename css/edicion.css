@@ -1,5 +1,7 @@
 /*mixin*/
-.main-contacto .facebook, .main-contacto .instagram, .main-contacto .whatsapp {
+.main-contacto .facebook,
+.main-contacto .instagram,
+.main-contacto .whatsapp {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -102,6 +104,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .lista-ventajas .ventaja {
   background-color: #FFFFFF;
   color: #0A0B0E;
@@ -112,15 +115,18 @@ body {
   align-items: center;
   gap: 5px;
 }
+
 .lista-ventajas .ventaja img {
   width: 200px;
   height: 200px;
   object-fit: cover;
 }
+
 .lista-ventajas .ventaja h4 {
   color: #0A0B0E;
   font-size: 60px;
 }
+
 .lista-ventajas .ventaja h5 {
   color: #0A0B0E;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -161,6 +167,7 @@ body {
   margin-left: 21px;
   margin-right: 21px;
 }
+
 .zona img {
   width: 200px;
   height: 200px;
@@ -186,30 +193,36 @@ form div {
   background-image: url(../imag/delivery.jpg);
   padding: 20px;
 }
+
 form label {
   width: 200px;
   background-color: #0A0B0E;
   color: #FFFFFF;
   padding: 4px;
 }
+
 form input {
   width: 200px;
   padding: 2px;
 }
+
 form select {
   width: 200px;
   padding: 2px;
 }
+
 form textarea {
   width: 200px;
   padding: 2px;
 }
+
 form form button {
   background-color: #0A0B0E;
   color: #FFFFFF;
   width: 200px;
   padding: 2px;
 }
+
 form section ul li {
   background-color: #FFFFFF;
   color: #0A0B0E;
@@ -225,18 +238,22 @@ form section ul li {
   justify-content: space-between;
   align-items: center;
 }
+
 .contenedor-video .texto {
   text-align: left;
 }
+
 .contenedor-video .texto p {
   margin-left: 10px;
   font-size: 30px;
 }
+
 .contenedor-video .texto ol li {
   margin-left: 10px;
   line-height: 50px;
   font-size: 25px;
 }
+
 .contenedor-video video {
   width: 400px;
   height: 300px;
@@ -246,23 +263,29 @@ form section ul li {
   margin-right: 20px;
   margin-left: 20px;
 }
+
 .main-contacto .whatsapp {
   background-color: #2A7F62;
 }
+
 .main-contacto .whatsapp img {
   width: 5vw;
   height: 5vh;
 }
+
 .main-contacto .instagram {
   background-color: #C3ACCE;
 }
+
 .main-contacto .instagram img {
   width: 8vw;
   height: 8vh;
 }
+
 .main-contacto .facebook {
   background-color: #DFD9E2;
 }
+
 .main-contacto .facebook img {
   width: 5vw;
   height: 5vh;
@@ -277,6 +300,7 @@ aside {
   margin-right: 20px;
   margin-top: 10px;
 }
+
 aside img {
   width: 100%;
   height: 100%;
@@ -336,6 +360,7 @@ header {
   justify-content: space-evenly;
   align-items: center;
 }
+
 .footer-padre .cajas-footer {
   display: flex;
   flex-direction: column;
@@ -352,6 +377,7 @@ header {
   align-items: center;
   color: #A0A5AB;
 }
+
 .footer-padre .cajas-footer img {
   height: 15vh;
   width: 15vw;
@@ -361,6 +387,7 @@ header {
   header {
     height: 40px;
   }
+
   .contenedor-entrega {
     display: flex;
     flex-direction: column;
@@ -369,6 +396,7 @@ header {
     height: 65vh;
     background-color: white;
   }
+
   .lista-ventajas {
     display: flex;
     flex-direction: column;
@@ -376,16 +404,20 @@ header {
     align-items: center;
     padding-top: 20px;
   }
+
   .lista-ventajas .ventaja img {
     width: 50px;
     height: 50px;
   }
+
   .lista-ventajas .ventaja h4 {
     font-size: 20px;
   }
+
   .lista-ventajas .ventaja h5 {
     font-size: 15px;
   }
+
   .footer-padre {
     display: flex;
     flex-direction: column;
@@ -393,10 +425,12 @@ header {
     align-items: center;
     margin-top: 20px;
   }
+
   .footer-padre .cajas-footer {
     font-size: 20px;
   }
 }
+
 .solicitud {
   padding-top: 15px;
 }
@@ -414,23 +448,28 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
 .contenedor-video .texto h2 {
   padding-top: 30px;
   padding-left: 30px;
 }
+
 .contenedor-video .texto p {
   padding-left: 20px;
   font-size: 15px;
   margin-right: 15px;
 }
+
 .contenedor-video .texto ol li {
   margin-right: 10px;
   font-size: 30px;
 }
+
 .contenedor-video section h2 {
   margin-left: 15px;
   margin-right: 15px;
 }
+
 .contenedor-video .main-contacto {
   padding-top: 30px;
 }
@@ -439,22 +478,27 @@ header {
   header {
     height: 60px;
   }
+
   .contenedor-entrega {
     height: 70vh;
   }
+
   .lista-ventajas {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   .lista-ventajas .ventaja img {
     width: 50px;
     height: 50px;
   }
+
   .lista-ventajas .ventaja h4 {
     font-size: 25px;
   }
+
   .footer-padre {
     display: flex;
     flex-direction: column;
@@ -462,77 +506,96 @@ header {
     align-items: center;
     margin-top: 20px;
   }
+
   .footer-padre .cajas-footer {
     font-size: 25px;
   }
+
   .footer-padre .cajas-footer img {
     height: 15vh;
     width: 15vw;
   }
+
   .zona {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
   }
+
   .contenedor-video {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
+
   .contenedor-video .texto {
     text-align: left;
   }
+
   .contenedor-video .texto h2 {
     padding-top: 30px;
     padding-left: 30px;
   }
+
   .contenedor-video .texto p {
     padding-left: 20px;
     font-size: 25px;
     margin-right: 25px;
   }
+
   .contenedor-video .texto ol li {
     margin-left: 10px;
     margin-right: 10px;
     line-height: 50px;
     font-size: 30px;
   }
+
   .contenedor-video video {
     width: 500px;
   }
+
   .main-contacto .whatsapp {
     height: 15vh;
   }
+
   .main-contacto .whatsapp h4 {
     font-size: 30px;
   }
+
   .main-contacto .whatsapp img {
     height: 8vh;
     width: 10vw;
   }
+
   .main-contacto .instagram {
     height: 15vh;
   }
+
   .main-contacto .instagram .titulo-negro {
     font-size: 30px;
   }
+
   .main-contacto .instagram img {
     height: 12vh;
     width: 20vw;
   }
+
   .main-contacto .facebook {
     height: 15vh;
   }
+
   .main-contacto .facebook h4 {
     font-size: 30px;
   }
+
   .main-contacto .facebook img {
     height: 8vh;
     width: 14vw;
   }
 }
+
 @media screen and (min-width: 977px) and (max-width: 1389px) {
   .zona {
     display: flex;
@@ -540,10 +603,12 @@ header {
     justify-content: space-around;
     align-items: center;
   }
+
   .contenedor-entrega {
     margin-top: 20px;
     height: 100vh;
   }
+
   .lista-ventajas {
     display: flex;
     flex-direction: column;
@@ -551,28 +616,34 @@ header {
     align-items: center;
     padding-top: 20px;
   }
+
   .lista-ventajas .ventaja img {
     width: 50px;
     height: 50px;
     object-fit: cover;
   }
+
   .lista-ventajas .ventaja h4 {
     font-size: 40px;
   }
+
   .lista-ventajas .ventaja h5 {
     font-size: 25px;
   }
+
   .contenedor-video {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
+
   .contenedor-video video {
     margin-right: 20px;
     width: 350px;
   }
 }
+
 @media screen and (min-width: 1398px) {
   .contenedor-video {
     display: flex;
@@ -580,6 +651,7 @@ header {
     justify-content: space-between;
     align-items: center;
   }
+
   .zona {
     display: flex;
     flex-direction: row;
