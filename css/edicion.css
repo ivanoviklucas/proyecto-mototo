@@ -532,7 +532,7 @@ section h2 {
 }
 @media screen and (min-width: 977px) and (max-width: 1389px) {
   .contenedor-entrega {
-    height: 80vh;
+    height: 100vh;
   }
   .lista-ventajas {
     display: flex;
