@@ -35,7 +35,7 @@
             color: $color-principal;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             text-decoration: underline;
-            font-size: 20px;
+            font-size: nth($lista-fon-size,3);
         }
 
     }
@@ -60,7 +60,7 @@
     /*mixin .zona*/
     .zona {
         @include flex(flex, row, space-around, center);
-        color: black;
+        color: $color-principal;
         background-image: url("../imag/textura-gris.jpg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -90,7 +90,7 @@
             padding: 50px;
             font-family: 'Times New Roman', Times, serif;
             font-weight: bolder;
-            font-size: 20px;
+            font-size: nth($lista-fon-size,3);
             background-image: url(../imag/delivery.jpg);
             padding: 20px;
         }
@@ -129,7 +129,7 @@
             color: $color-principal;
             font-family: system-ui, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             text-align: center;
-            font-size: 40px;
+            font-size: nth($lista-fon-size,6);
         }
     }
 
@@ -142,13 +142,13 @@
 
             p {
                 margin-left: 10px;
-                font-size: 30px;
+                font-size: nth($lista-fon-size,5);
             }
 
             ol li {
                 margin-left: 10px;
                 line-height: 50px;
-                font-size: 25px
+                font-size: nth($lista-fon-size,4);
             }
 
         }

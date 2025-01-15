@@ -151,7 +151,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  color: black;
+  color: #0A0B0E;
   background-image: url("../imag/textura-gris.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -346,13 +346,15 @@ header {
   padding: 30px;
   margin: 10px;
   border: 2px solid #FFFFFF;
-  font-size: 20px;
+  font-size: #DFD9E2;
   border-radius: 10vh;
   text-align: center;
   align-items: center;
-  color: #A0A5AB img;
-  color-height: 15vh;
-  color-width: 15vw;
+  color: #A0A5AB;
+}
+.footer-padre .cajas-footer img {
+  height: 15vh;
+  width: 15vw;
 }
 
 @media screen and (min-width: 349px) and (max-width: 551px) {
