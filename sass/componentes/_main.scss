@@ -28,7 +28,7 @@
 
         h4 {
             color: $color-principal;
-            font-size: 60px;
+            font-size: nth($lista-fon-size,7);
         }
 
         h5 {

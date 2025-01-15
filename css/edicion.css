@@ -366,7 +366,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 65vh;
   }
   .lista-ventajas {
     display: flex;
@@ -483,7 +483,7 @@ header {
     object-fit: cover;
   }
   .lista-ventajas .ventaja h4 {
-    font-size: 30px;
+    font-size: 25px;
   }
   .lista-ventajas .ventaja h5 {
     color: black;
@@ -503,7 +503,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 25px;
   }
   .footer-padre .cajas-footer img {
     height: 15vh;
@@ -565,6 +565,36 @@ header {
   .main-contacto .facebook img {
     height: 8vh;
     width: 14vw;
+  }
+}
+@media screen and (min-width: 977px) and (max-width: 1389px) {
+  .contenedor-entrega {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  .lista-ventajas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+  .lista-ventajas .ventaja img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  .lista-ventajas .ventaja h4 {
+    font-size: 40px;
+  }
+  .lista-ventajas .ventaja h5 {
+    color: black;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-decoration: underline;
+    font-size: 25px;
   }
 }
 

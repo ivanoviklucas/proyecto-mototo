@@ -4,7 +4,7 @@ $color-tersiario: #A0A5AB;
 $color-cuarto: #778DA9;
 
 $colores-contacto: #2A7F62,#C3ACCE,#DFD9E2;
-$lista-fon-size: 10px,15px,20px,25px,30px,40px;
+$lista-fon-size: 10px,15px,20px,25px,30px,40px,60px;
 /*mixin*/
 @mixin flex($flex,$direction,$justify, $align){
     display: $flex;
