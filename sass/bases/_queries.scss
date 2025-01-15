@@ -264,7 +264,15 @@
             }
         }
     }
+    .contenedor-video {
+        @include flex(flex, row, space-between, center);
 
-
+        video {
+            margin-right: 20px;
+            width: 350px;
+        }
+    }
 
 }
+
+

@@ -596,6 +596,16 @@ header {
     text-decoration: underline;
     font-size: 25px;
   }
+  .contenedor-video {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contenedor-video video {
+    margin-right: 20px;
+    width: 350px;
+  }
 }
 
 /*# sourceMappingURL=edicion.css.map */
