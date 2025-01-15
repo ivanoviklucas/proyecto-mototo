@@ -427,13 +427,11 @@ header {
   margin-right: 10px;
   font-size: 30px;
 }
-
-section h2 {
+.contenedor-video section h2 {
   margin-left: 15px;
   margin-right: 15px;
 }
-
-.main-contacto {
+.contenedor-video .main-contacto {
   padding-top: 30px;
 }
 
@@ -443,7 +441,6 @@ section h2 {
   }
   .contenedor-entrega {
     height: 70vh;
-    background-color: white;
   }
   .lista-ventajas {
     display: flex;

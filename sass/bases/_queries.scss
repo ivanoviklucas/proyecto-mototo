@@ -71,18 +71,18 @@
         }
 
     }
+
+
+    section h2 {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .main-contacto {
+        padding-top: 30px
+    }
+
 }
-
-section h2 {
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-.main-contacto {
-    padding-top: 30px
-}
-
-
 
 @media screen and (min-width: 551px)and (max-width: 977px) {
 
@@ -92,7 +92,6 @@ section h2 {
 
     .contenedor-entrega {
         height: 70vh;
-        background-color: white
     }
 
     .lista-ventajas {
