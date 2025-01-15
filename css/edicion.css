@@ -378,15 +378,11 @@ header {
   .lista-ventajas .ventaja img {
     width: 50px;
     height: 50px;
-    object-fit: cover;
   }
   .lista-ventajas .ventaja h4 {
     font-size: 20px;
   }
   .lista-ventajas .ventaja h5 {
-    color: black;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    text-decoration: underline;
     font-size: 15px;
   }
   .footer-padre {
@@ -397,78 +393,54 @@ header {
     margin-top: 20px;
   }
   .footer-padre .cajas-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    height: 40%;
-    padding: 30px;
-    margin: 10px;
-    border: 2px solid white;
     font-size: 20px;
-    border-radius: 10vh;
-    text-align: center;
-    align-items: center;
-    color: gray;
-  }
-  .footer-padre .cajas-footer img {
-    height: 15vh;
-    width: 15vw;
-  }
-  .solicitud {
-    padding-top: 15px;
-  }
-  .zona {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .contenedor-video {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .contenedor-video .texto {
-    text-align: left;
-  }
-  .contenedor-video .texto h2 {
-    padding-top: 30px;
-    padding-left: 30px;
-  }
-  .contenedor-video .texto p {
-    padding-left: 20px;
-    font-size: 15px;
-    margin-right: 15px;
-  }
-  .contenedor-video .texto ol li {
-    margin-left: 10px;
-    margin-right: 10px;
-    line-height: 50px;
-    font-size: 30px;
-  }
-  .contenedor-video video {
-    width: 400px;
-  }
-  section h2 {
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-  .main-contacto {
-    padding-top: 30px;
   }
 }
+.solicitud {
+  padding-top: 15px;
+}
+
+.zona {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contenedor-video {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.contenedor-video .texto h2 {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.contenedor-video .texto p {
+  padding-left: 20px;
+  font-size: 15px;
+  margin-right: 15px;
+}
+.contenedor-video .texto ol li {
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+section h2 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.main-contacto {
+  padding-top: 30px;
+}
+
 @media screen and (min-width: 551px) and (max-width: 977px) {
   header {
     height: 60px;
   }
   .contenedor-entrega {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height: 70vh;
   }
   .lista-ventajas {
@@ -480,16 +452,9 @@ header {
   .lista-ventajas .ventaja img {
     width: 50px;
     height: 50px;
-    object-fit: cover;
   }
   .lista-ventajas .ventaja h4 {
     font-size: 25px;
-  }
-  .lista-ventajas .ventaja h5 {
-    color: black;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    text-decoration: underline;
-    font-size: 20px;
   }
   .footer-padre {
     display: flex;
@@ -499,10 +464,6 @@ header {
     margin-top: 20px;
   }
   .footer-padre .cajas-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     font-size: 25px;
   }
   .footer-padre .cajas-footer img {
@@ -569,10 +530,6 @@ header {
 }
 @media screen and (min-width: 977px) and (max-width: 1389px) {
   .contenedor-entrega {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height: 80vh;
   }
   .lista-ventajas {
@@ -591,9 +548,6 @@ header {
     font-size: 40px;
   }
   .lista-ventajas .ventaja h5 {
-    color: black;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    text-decoration: underline;
     font-size: 25px;
   }
   .contenedor-video {

@@ -16,17 +16,14 @@
             img {
                 width: 50px;
                 height: 50px;
-                object-fit: cover;
             }
 
             h4 {
-                font-size: nth($lista-fon-size,3);           }
+                font-size: nth($lista-fon-size, 3);
+            }
 
             h5 {
-                color: black;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                text-decoration: underline;
-                font-size: 15px;
+                font-size: nth($lista-fon-size, 2)
             }
         }
     }
@@ -36,85 +33,63 @@
         margin-top: 20px;
 
         .cajas-footer {
-            @include flex(flex, column, center, center);
-            width: 40%;
-            height: 40%;
-            padding: 30px;
-            margin: 10px;
-            border: 2px solid white;
-            font-size: nth($lista-fon-size,3);
-            border-radius: 10vh;
-            text-align: center;
-            align-items: center;
-            color: gray;
-
-            img {
-                height: 15vh;
-                width: 15vw;
-            }
+            font-size: nth($lista-fon-size, 3);
         }
-
-    }
-
-    .solicitud {
-        padding-top: 15px
-    }
-
-    .zona {
-        @include flex(flex, column, space-around, center)
-    }
-
-    .contenedor-video {
-        @include flex(flex, column, space-between, center);
-
-        .texto {
-            text-align: left;
-
-            h2 {
-                padding-top: 30px;
-                padding-left: 30px;
-
-            }
-
-            p {
-                padding-left: 20px;
-                font-size: nth($lista-fon-size,2);
-                margin-right: 15px;
-            }
-
-            ol li {
-                margin-left: 10px;
-                margin-right: 10px;
-                line-height: 50px;
-                font-size: 30px
-            }
-
-        }
-
-        video {
-            width: 400px;
-        }
-    }
-
-    section h2 {
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-
-    .main-contacto {
-        padding-top: 30px
     }
 
 }
 
-@media screen and (min-width: 551px)and (max-width: 977px){
+.solicitud {
+    padding-top: 15px
+}
+
+.zona {
+    @include flex(flex, column, space-around, center)
+}
+
+.contenedor-video {
+    @include flex(flex, column, space-between, center);
+
+    .texto {
+
+        h2 {
+            padding-top: 30px;
+            padding-left: 30px;
+
+        }
+
+        p {
+            padding-left: 20px;
+            font-size: nth($lista-fon-size, 2);
+            margin-right: 15px;
+        }
+
+        ol li {
+            margin-right: 10px;
+            font-size: nth($lista-fon-size, 5);
+        }
+
+    }
+}
+
+section h2 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.main-contacto {
+    padding-top: 30px
+}
+
+
+
+@media screen and (min-width: 551px)and (max-width: 977px) {
 
     header {
         height: 60px
     }
 
     .contenedor-entrega {
-        @include flex (flex, column, center, center);
         height: 70vh;
     }
 
@@ -125,19 +100,12 @@
             img {
                 width: 50px;
                 height: 50px;
-                object-fit: cover;
             }
 
             h4 {
-                font-size: nth($lista-fon-size,4);
+                font-size: nth($lista-fon-size, 4);
             }
 
-            h5 {
-                color: black;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                text-decoration: underline;
-                font-size: nth($lista-fon-size,3);
-            }
         }
     }
 
@@ -146,8 +114,7 @@
         margin-top: 20px;
 
         .cajas-footer {
-            @include flex(flex, column, center, center);
-            font-size: nth($lista-fon-size,4);
+            font-size: nth($lista-fon-size, 4);
 
 
             img {
@@ -172,7 +139,7 @@
 
             p {
                 padding-left: 20px;
-                font-size: 25px;
+                font-size: nth($lista-fon-size, 4);
                 margin-right: 25px;
             }
 
@@ -180,7 +147,7 @@
                 margin-left: 10px;
                 margin-right: 10px;
                 line-height: 50px;
-                font-size: nth($lista-fon-size,5);
+                font-size: nth($lista-fon-size, 5);
             }
 
         }
@@ -195,7 +162,7 @@
             height: 15vh;
 
             h4 {
-                font-size: nth($lista-fon-size,5);
+                font-size: nth($lista-fon-size, 5);
             }
 
             img {
@@ -210,7 +177,7 @@
             height: 15vh;
 
             .titulo-negro {
-                font-size: nth($lista-fon-size,5);
+                font-size: nth($lista-fon-size, 5);
             }
 
             img {
@@ -225,7 +192,7 @@
             height: 15vh;
 
             h4 {
-                font-size: nth($lista-fon-size,5);
+                font-size: nth($lista-fon-size, 5);
             }
 
             img {
@@ -235,10 +202,9 @@
         }
     }
 }
-@media screen and (min-width: 977px)and (max-width: 1389px){
 
+@media screen and (min-width: 977px)and (max-width: 1389px) {
     .contenedor-entrega {
-        @include flex (flex, column, center, center);
         height: 80vh;
     }
 
@@ -254,16 +220,15 @@
             }
 
             h4 {
-                font-size: nth($lista-fon-size,6);           }
+                font-size: nth($lista-fon-size, 6);
+            }
 
             h5 {
-                color: black;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                text-decoration: underline;
-                font-size: nth($lista-fon-size,4);
+                font-size: nth($lista-fon-size, 4);
             }
         }
     }
+
     .contenedor-video {
         @include flex(flex, row, space-between, center);
 
@@ -274,5 +239,3 @@
     }
 
 }
-
-

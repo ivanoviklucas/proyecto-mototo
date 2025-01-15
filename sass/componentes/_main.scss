@@ -9,37 +9,38 @@
 
     .lista-ventajas {
         @include flex(flex, row, center, center);
-    
-    .ventaja {
-        background-color: $color-secundario;
-        color: $color-principal;
-        display: flex;
-        text-align: center;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        gap: 5px;
 
-        img {
-            width: 200px;
-            height: 200px;
-            object-fit: cover;
-        }
-
-        h4 {
+        .ventaja {
+            background-color: $color-secundario;
             color: $color-principal;
-            font-size: nth($lista-fon-size,7);
-        }
+            display: flex;
+            text-align: center;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
 
-        h5 {
-            color: $color-principal;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            text-decoration: underline;
-            font-size: nth($lista-fon-size,3);
-        }
+            img {
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+            }
 
+            h4 {
+                color: $color-principal;
+                font-size: nth($lista-fon-size, 7);
+            }
+
+            h5 {
+                color: $color-principal;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                text-decoration: underline;
+                font-size: nth($lista-fon-size, 3);
+            }
+
+        }
     }
-    }
+
     .ventaja:hover {
         transform: scale(1.1)
     }
@@ -90,7 +91,7 @@
             padding: 50px;
             font-family: 'Times New Roman', Times, serif;
             font-weight: bolder;
-            font-size: nth($lista-fon-size,3);
+            font-size: nth($lista-fon-size, 3);
             background-image: url(../imag/delivery.jpg);
             padding: 20px;
         }
@@ -129,7 +130,7 @@
             color: $color-principal;
             font-family: system-ui, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             text-align: center;
-            font-size: nth($lista-fon-size,6);
+            font-size: nth($lista-fon-size, 6);
         }
     }
 
@@ -142,13 +143,13 @@
 
             p {
                 margin-left: 10px;
-                font-size: nth($lista-fon-size,5);
+                font-size: nth($lista-fon-size, 5);
             }
 
             ol li {
                 margin-left: 10px;
                 line-height: 50px;
-                font-size: nth($lista-fon-size,4);
+                font-size: nth($lista-fon-size, 4);
             }
 
         }
@@ -166,6 +167,7 @@
         .whatsapp {
             @extend %flexbox;
             background-color: nth($colores-contacto, 1);
+
             img {
                 width: 5vw;
                 height: 5vh;
@@ -185,6 +187,7 @@
         .facebook {
             @extend %flexbox;
             background-color: nth($colores-contacto, 3);
+
             img {
                 width: 5vw;
                 height: 5vh;
@@ -215,4 +218,3 @@
         padding-right: 21px;
         padding-top: 10px
     }
-
