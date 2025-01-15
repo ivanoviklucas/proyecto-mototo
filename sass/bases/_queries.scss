@@ -6,6 +6,7 @@
     .contenedor-entrega {
         @include flex (flex, column, center, center);
         height: 65vh;
+        background-color: white
     }
 
     .lista-ventajas {
@@ -91,6 +92,7 @@ section h2 {
 
     .contenedor-entrega {
         height: 70vh;
+        background-color: white
     }
 
     .lista-ventajas {

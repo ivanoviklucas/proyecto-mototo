@@ -367,6 +367,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 65vh;
+    background-color: white;
   }
   .lista-ventajas {
     display: flex;
@@ -442,6 +443,7 @@ section h2 {
   }
   .contenedor-entrega {
     height: 70vh;
+    background-color: white;
   }
   .lista-ventajas {
     display: flex;
