@@ -136,7 +136,7 @@
 
     /*Quienes-somos*/
     .contenedor-video {
-        @include flex(flex, row, space-between, center);
+        @include flex(flex,row,space-between, center);
 
         .texto {
             text-align: left;

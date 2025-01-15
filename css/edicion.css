@@ -469,6 +469,12 @@ header {
     height: 15vh;
     width: 15vw;
   }
+  .zona {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
   .contenedor-video {
     display: flex;
     flex-direction: column;
@@ -528,6 +534,12 @@ header {
   }
 }
 @media screen and (min-width: 977px) and (max-width: 1389px) {
+  .zona {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
   .contenedor-entrega {
     margin-top: 20px;
     height: 100vh;
@@ -559,6 +571,20 @@ header {
   .contenedor-video video {
     margin-right: 20px;
     width: 350px;
+  }
+}
+@media screen and (min-width: 1398px) {
+  .contenedor-video {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .zona {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
   }
 }
 

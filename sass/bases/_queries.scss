@@ -125,7 +125,9 @@
         }
 
     }
-
+    .zona {
+        @include flex(flex, row, space-around, center)
+    }
     .contenedor-video {
         @include flex(flex, column, space-between, center);
 
@@ -205,6 +207,10 @@
 }
 
 @media screen and (min-width: 977px)and (max-width: 1389px) {
+    .zona {
+        @include flex(flex, row, space-around, center)
+    }
+
     .contenedor-entrega {
         margin-top: 20px;
         height: 100vh;
@@ -239,5 +245,14 @@
             width: 350px;
         }
     }
+
+}
+
+@media screen and (min-width: 1398px) {
+    .contenedor-video {
+        @include flex(flex, row, space-between, center);}
+    .zona {
+            @include flex(flex, row, space-around, center);
+        }
 
 }
